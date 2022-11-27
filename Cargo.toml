@@ -1,5 +1,5 @@
 [package]
-name = "shadrr"
+name = "irontree"
 version = "0.1.0"
 edition = "2021"
 
@@ -28,3 +28,8 @@ web-sys = { version = "0.3", features = [
 
 [target.'cfg(target_arch = "x86_64")'.dependencies]
 shaderc = "0.8.0"
+
+
+[[bin]]
+name = "irontree"
+path = "src/bin/irontree.rs"

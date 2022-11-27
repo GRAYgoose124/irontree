@@ -56,6 +56,7 @@ pub async fn run() {
                 WindowEvent::ScaleFactorChanged { new_inner_size, .. } => {
                     state.resize(**new_inner_size);
                 },
+                
                 WindowEvent::CloseRequested
                 | WindowEvent::KeyboardInput {
                     input:
